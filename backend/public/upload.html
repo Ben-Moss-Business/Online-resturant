@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Upload Food Item</h2>
+    <form
+      action="http://localhost:4000/api/food/add"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <label>Name:</label><br />
+      <input type="text" name="name" /><br /><br />
+
+      <label>Description:</label><br />
+      <input type="text" name="description" /><br /><br />
+
+      <label>Price:</label><br />
+      <input type="number" name="price" /><br /><br />
+
+      <label>Category:</label><br />
+      <input type="text" name="category" /><br /><br />
+
+      <label>Image:</label><br />
+      <input type="file" name="image" /><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
