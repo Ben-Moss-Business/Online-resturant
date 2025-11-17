@@ -84,35 +84,51 @@ export const assets = {
 
 export const menu_list = [
   {
-    menu_name: "Salad",
+    menu_name: "Promos",
     menu_image: menu_1,
   },
   {
-    menu_name: "Rolls",
+    menu_name: "Fish",
     menu_image: menu_2,
   },
   {
-    menu_name: "Deserts",
+    menu_name: "Chips",
     menu_image: menu_3,
   },
   {
-    menu_name: "Sandwich",
+    menu_name: "Sausages",
     menu_image: menu_4,
   },
   {
-    menu_name: "Cake",
+    menu_name: "Burgers",
     menu_image: menu_5,
   },
   {
-    menu_name: "Pure Veg",
+    menu_name: "Chicken",
     menu_image: menu_6,
   },
   {
-    menu_name: "Pasta",
+    menu_name: "Pies",
     menu_image: menu_7,
   },
   {
-    menu_name: "Noodles",
+    menu_name: "Kids",
+    menu_image: menu_8,
+  },
+  {
+    menu_name: "Sides",
+    menu_image: menu_8,
+  },
+  {
+    menu_name: "Deserts",
+    menu_image: menu_8,
+  },
+  {
+    menu_name: "Sauces",
+    menu_image: menu_8,
+  },
+  {
+    menu_name: "Drinks",
     menu_image: menu_8,
   },
 ];
