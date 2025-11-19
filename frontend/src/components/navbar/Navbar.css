@@ -4,35 +4,16 @@
     justify-content: space-between;
     align-items: center;
 }
-.navbar .logo {
-    font-family:sans-serif; /* Use Broadway if available */
+.navbar .logo{
+    font-size: 34px;
+    font-family: sans-serif;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
     font-weight: bold;
     color: white;
     -webkit-text-stroke: 2px #0496c7;  
-    -moz-text-stroke: 2px #0496c7;              
-
-    /* Responsive font size */
-    font-size: clamp(18px, 5vw, 34px);
-
-    /* Responsive max-width */
-    max-width: 40%;  /* Adjusts based on navbar width */
-    
-    /* Keep text on one line */
-    white-space: nowrap;
-    
-    /* Ensure container shrinks with text */
-    display: inline-block;
-
-    /* Optional: add padding to avoid sticking to edges */
-    padding: 0 8px;
-}
-
-/* Optional: for extra small screens */
-@media (max-width: 750px) {
-    .navbar .logo {
-        font-size: clamp(16px, 6vw, 28px);
-        max-width: 60%;  /* Allow more flexibility */
-    }
 }
 
 .navbar-menu{
@@ -90,9 +71,11 @@
 @media (max-width:1050px) {
     .navbar .logo{
         width: 140px;
+        font-size: 20px;
+        -webkit-text-stroke: 1px #0496c7;  
     }
     .navbar-menu {
-        gap: 20px;
+        gap: 24px;
         font-size: 17px;
     }
     .navbar-right {
@@ -109,6 +92,7 @@
 @media (max-width:900px) {
     .navbar .logo{
         width: 120px;
+        font-size: 20px;
     }
     .navbar-menu {
         gap: 15px;
