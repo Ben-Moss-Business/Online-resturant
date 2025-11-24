@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./ExploreMenu.css";
-import { menu_list } from "../../assets/assets";
+import { assets, menu_list } from "../../assets/assets";
 
 const ExploreMenu = ({ category, setCategory }) => {
   const wrapperRef = useRef(null); // changed ref to wrapper
@@ -46,7 +46,7 @@ const ExploreMenu = ({ category, setCategory }) => {
               >
                 <img
                   className={category === item.menu_name ? "active" : ""}
-                  src={item.menu_image}
+                  src={assets.parcel_icon}
                   alt=""
                 />
                 <p>{item.menu_name}</p>
