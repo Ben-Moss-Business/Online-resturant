@@ -12,7 +12,9 @@ const Header = () => {
           perferendis fuga sapiente nam praesentium? Cumque, excepturi. Aliquam,
           iure sunt.
         </p>
-        <button>View Menu</button>
+        <a href="#explore-menu">
+          <button>View Menu</button>
+        </a>
       </div>
     </div>
   );
